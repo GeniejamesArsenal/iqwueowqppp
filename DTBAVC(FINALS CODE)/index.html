@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="logos in ui/logo.png">
+<title>Student</title>
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:   #eee;
+}
+div { /* header ni diri dapita*/
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1px;
+    background-color: #00224D;
+}
+img { /* logo */
+    max-width: 100%;
+    height: auto;
+}
+input, select { /* diri dapita kay sa searh bar*/
+    margin: 10px;
+    padding: 5px;
+    background: #A0153E;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 8.6px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+}
+</style>
+<body>
+    <div>
+        <a href="#link">
+            <img src="IMG/logo/app icon home.png" alt="app icon home" width="40" height="auto">
+        </a>
+
+        <input type="text" placeholder="Search...">
+
+        <select id="dropdown1">
+            <option value="" selected disabled hidden>Subject</option>
+            <option value="#link1">Option 1</option>
+            <option value="#link2">Option 2</option>
+            <option value="#link3">Option 3</option>
+        </select>
+        <a href="#" id="link1" style="display: none;">Link 1</a>
+        <a href="#" id="link2" style="display: none;">Link 2</a>
+        <a href="#" id="link3" style="display: none;">Link 3</a>
+
+       <h4><a href="https://www.facebook.com/pakyuimongmama/" style="color: white; text-decoration: none;">GENIE JAMES ARSENAL</a></h4> 
+
+        
+        <select id="dropdown2">
+            <option value="" selected disabled hidden>Settings</option>
+            <option value="login">Profile</option>
+            <option value="#link2">Dark Mode</option>
+            <option value="#link3">Settings</option>
+            <option value="#link3">Log out</option>
+        </select>
+        <a href="login.html" id="link1" style="display: none;">Link 1</a>
+        <a href="#" id="link2" style="display: none;">Link 2</a>
+        <a href="#" id="link3" style="display: none;">Link 3</a>
+    </div>
+
+</body>
+</html>

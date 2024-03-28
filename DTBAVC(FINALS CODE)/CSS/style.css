@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #A0153E;
+    height: 100vh;
+}
+
+/* navigation bar diri dapita kasabot ka! */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00224D;
+    color: white;
+    padding: 10px;
+}
+
+.logo {
+    text-decoration: none;
+    color: white;
+    width: 43px;
+    display: flex;
+    align-items: center;
+}
+
+/* search bar diri pag edit yot*/
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    width: 100px; /*search bar adjust this searching diri dapita ha kasabot ka! */
+}
+
+input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 14px; 
+}
+
+.user {
+    display: flex;
+    align-items: center;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    height: 43px;
+    width: 250px; /*settings adjust this icon diri dapita ha kasabot ka! */
+}
+
+.dropbtn {
+    color: white;
+    padding: 5px 10px;
+    border: 14px;
+    cursor: pointer;
+    width: 43px;
+}
+
+.dropdown-content { /* adjust nimo diri dapita ang box sa dropdown menu sa settings */
+    display: none;
+    position: absolute;
+    background-color: #00224D;
+    width: 140px;
+    height: 150px;
+    border-radius: 14px;
+}
+
+
+.dropdown-content a {
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    display: block;
+    font-size: 150%;
+}
+
+.dropdown-content a:hover {
+    background-color: #000000;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*username of user area */
+.username {
+    text-decoration: none; /* Remove underline */
+    color: white; /* Use the default text color */
+    width: 300px; /*adjust kung lif or right ba siya */
+    font-size: 25px;
+    top: 60px;
+    left: 58px;
+}
